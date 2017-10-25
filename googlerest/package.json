@@ -1,0 +1,27 @@
+{
+  "name": "googlerest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "claudia create --version dev --region us-east-1 --api-module api"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-serverless-express": "^3.0.2",
+    "body-parser": "^1.17.2",
+    "claudia-api-builder": "^2.5.1",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.3.0",
+    "nodemon": "^1.11.0",
+    "request": "^2.81.0",
+    "swagger-node-express": "^2.1.3"
+  },
+  "devDependencies": {
+    "claudia": "^2.14.2"
+  }
+}
